@@ -1,4 +1,3 @@
-
 services:
   - type: web
     name: selection-way-bot
@@ -7,4 +6,5 @@ services:
     startCommand: gunicorn app:app
     envVars:
       - key: BOT_TOKEN
+        value: 8439511623:A4EEynrraSmPULZZQ1RIurKtcYn_7IxALLI
         sync: false
